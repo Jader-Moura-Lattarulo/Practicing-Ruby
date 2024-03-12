@@ -1,8 +1,8 @@
 require_relative 'class_animal.rb'
 
 class Repitale < Animal
-    def initialize(specie, breed, type_of_diet, habitat)
-        super(specie, breed, type_of_diet, habitat)
+    def initialize(specie, known, type_of_diet, habitat)
+        super(specie, known, type_of_diet, habitat)
     end
 
     def cold_blooded
