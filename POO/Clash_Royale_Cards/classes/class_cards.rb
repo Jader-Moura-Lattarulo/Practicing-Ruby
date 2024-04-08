@@ -1,5 +1,5 @@
 class Card
-    attr_accessor :type, :rarity, elixir, :name, :level, :health_points, :damage, :damage_per_second, :targets, :range, :impact_speed, :speed_of_movement
+    attr_accessor :type, :rarity, :elixir, :name, :level, :health_points, :damage, :damage_per_second, :targets, :range, :impact_speed, :speed_of_movement
 
     def initialize
         @type = type
